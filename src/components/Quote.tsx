@@ -15,7 +15,7 @@ export default function Quote({ text, author }: QuoteProps) {
       />
 
       {/* Quote Text */}
-      <p className="relative !text-[11px] z-10  !text-[#243433] -mb-5 lg:!text-[15px]">
+      <p className="relative !text-[11px] z-10  !text-[#243433] -mb-5 lg:!text-[15px] text-left">
         {text}
       </p>
 

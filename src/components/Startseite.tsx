@@ -42,7 +42,7 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
         width={450}
         height={390}
         priority
-        className="lg:w-[550px] lg:h-[450px]"
+        className="lg:w-[650px] lg:h-[550px]"
         
         />
       </div>

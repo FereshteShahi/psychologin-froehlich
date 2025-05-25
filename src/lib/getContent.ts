@@ -28,6 +28,7 @@ type Content = {
   cost2?: string;
   cost3?: string;
   costButton?: string;
+  title2?: string;
 };
 
 // Define the available pages that can be in the JSON

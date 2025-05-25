@@ -12,19 +12,21 @@ export default async function Home( { params }: { params: Params }) {
 
   return (
     <main className="">
-    <section className="">
+    <section id="home">
       <div className="w-80 m-auto text-center p-4 ">
       <h1>{content.name}</h1>
       <h1>{content.title}</h1>
+      <h1>{content.title2}</h1>
+    
       </div>
       <Startseite lang={params.lang} />
     </section>
-    <section>
+    <section id="angebote">
     <h2 className="m-10 text-center text-[30px] ">{angebottitle.title}</h2>
     
     <Angebote lang={params.lang} />
     </section>
-    <section>
+    <section id="costs">
     <h2 className="m-10 text-center text-[30px] ">{costs.title}</h2>
     <Costs lang={params.lang} />
     </section>

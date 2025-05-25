@@ -82,10 +82,10 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
               </svg>
             </button>
 
-            <Link href={`/${currentLang}`} onClick={() => setMenuOpen(false)}>{navData.nav.home}</Link>
+            <Link href="#home" onClick={() => setMenuOpen(false)}>{navData.nav.home}</Link>
             <Link href={`/${currentLang}/about`} onClick={() => setMenuOpen(false)}>{navData.nav.about}</Link>
-            <Link href={`/${currentLang}/angebote`} onClick={() => setMenuOpen(false)}>{navData.nav.angebote}</Link>
-            <Link href={`/${currentLang}/cost`} onClick={() => setMenuOpen(false)}>{navData.nav.cost}</Link>
+            <Link href="#angebote" onClick={() => setMenuOpen(false)}>{navData.nav.angebote}</Link>
+            <Link href="#costs" onClick={() => setMenuOpen(false)}>{navData.nav.cost}</Link>
             <Link href={`/${currentLang}/contact`} onClick={() => setMenuOpen(false)}>{navData.nav.contact}</Link>
           </motion.div>
         )}
