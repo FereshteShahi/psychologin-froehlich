@@ -101,29 +101,29 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
       )}>
         {/* Left Links */}
         <div className="flex gap-4 lg:gap-4">
-          <Link href={`/${currentLang}`} className='text-xl lg:text-2xl'>{navData.nav.home}</Link>
+          <Link href="#home" className='text-xl lg:text-2xl'>{navData.nav.home}</Link>
           <Link href={`/${currentLang}/about`} className='text-xl lg:text-2xl'>{navData.nav.about}</Link>
-          <Link href={`/${currentLang}/angebote`} className='text-xl lg:text-2xl'>{navData.nav.angebote}</Link>
+          <Link href="#angebote" className='text-xl lg:text-2xl'>{navData.nav.angebote}</Link>
         </div>
 
         {/* Center Logo */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 lg:ml-8 ">
+        <div className="absolute left-1/2 transform -translate-x-1/2 ">
           <Link href={`/${currentLang}`}>
             <Image
               src="/images/logo.jpg"
               alt="Logo"
               width={100}
               height={80}
-              className="rounded-full "
+              className="rounded-full lg:mr-1 "
               priority
             />
           </Link>
         </div>
 
         {/* Right Links */}
-        <div className="flex items-center gap-4 lg:gap-9">
-          <Link href={`/${currentLang}/cost`} className='text-xl lg:text-2xl'>{navData.nav.cost}</Link>
-          <Link href={`/${currentLang}/contact`} className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
+        <div className="flex items-center gap-4 lg:gap-6">
+          <Link href="#costs" className='text-xl lg:text-2xl'>{navData.nav.cost}</Link>
+          <Link href="#contact" className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
           <LanguageSwitcher />
         </div>
       </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import "tailwindcss";
 
 @tailwind base;
@@ -10,7 +11,7 @@
 :root {
   --color-background: rgba(203, 213, 188, 0.4);
   --color-bg-navi: rgba(250, 243, 224, 0.5);
-  --color-bg-navi-mobile:rgb(203, 213, 188 );
+  --color-bg-navi-mobile: rgb(203, 213, 188);
   --color-bg-navi-scrolled: rgb(250, 243, 224);
   --color-foreground: #FAF3E0;
   --color-heading: #567B5C;
@@ -19,7 +20,7 @@
   --color-button-hover: #a3c6b4;
   --color-button-text: #567b5c;
   --color-btn-border: #7AAEAA;
-  --color-footer-bg: #99BFAA,
+  --color-footer-bg: #99BFAA;
 
   --font-handwriting: 'Handlee', cursive;
   --font-burmese: 'MyanmarKhyay', sans-serif;
@@ -33,13 +34,14 @@
   font-weight: normal;
   font-style: normal;
 }
-html{
-  scroll-behavior: smooth;
-}
 
 /* ----------------------------- */
 /*         Base Styles          */
 /* ----------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-sans;
   background-color: var(--color-background);
@@ -50,9 +52,9 @@ body {
 /*         Headings             */
 /* ----------------------------- */
 h1, h2, h3 {
-  @apply font-bold;
+  font-weight: bold;
   color: var(--color-heading);
-  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
+  font-family: var(--font-burmese);
 }
 
 /* ----------------------------- */
@@ -62,14 +64,18 @@ p {
   line-height: 1.625;
   font-size: 1rem;
   color: var(--color-paragraph);
-  font-family: var(--font-handwriting); /* 👈 Apply Handlee font */
+  font-family: 'Handlee', cursive;
 }
 
 /* ----------------------------- */
 /*         Buttons              */
 /* ----------------------------- */
 .btndetr {
-  @apply w-15 h-10 font-bold rounded-full transition;
+  width: 3.75rem;
+  height: 2.5rem;
+  font-weight: bold;
+  border-radius: 9999px;
+  transition: all 0.2s;
   background-color: var(--color-button-bg);
   color: var(--color-button-text);
   font-family: var(--font-burmese);
@@ -80,6 +86,7 @@ p {
     @apply w-12 h-8 text-sm mr-5;
   }
 }
+
 .btndetr:hover {
   background-color: var(--color-button-hover);
 }
@@ -89,7 +96,7 @@ p {
   background-color: var(--color-button-bg);
   color: var(--color-button-text);
   border-color: var(--color-btn-border);
-  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
+  font-family: var(--font-burmese);
 }
 
 /* ----------------------------- */
@@ -99,8 +106,9 @@ a {
   @apply p-2 rounded-full;
   color: var(--color-heading);
 }
+
 a:hover {
-  @apply underline
+  @apply underline;
 }
 
 /* ----------------------------- */
@@ -116,17 +124,19 @@ a:hover {
 /*       Font Utility Classes   */
 /* ----------------------------- */
 .font-handlee {
-  font-family: var(--font-handwriting);
+  font-family: 'Handlee', cursive;
 }
 
 .font-khyay {
   font-family: var(--font-burmese);
 }
 
-
-.navi{
-  @apply w-full px-2 py-2 ;
+/* ----------------------------- */
+/*          Navbar              */
+/* ----------------------------- */
+.navi {
+  @apply w-full px-2 py-2;
   background-color: var(--color-bg-navi);
   color: var(--color-heading);
-  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
+  font-family: var(--font-burmese);
 }

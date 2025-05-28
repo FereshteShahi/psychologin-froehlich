@@ -13,16 +13,15 @@ export default async function Home( { params }: { params: Params }) {
   return (
     <main className="">
     <section id="home">
-      <div className="w-80 m-auto text-center p-4 ">
-      <h1>{content.name}</h1>
-      <h1>{content.title}</h1>
-      <h1>{content.title2}</h1>
-    
+      <div className="w-80 m-auto text-center p-4 lg:w-1/2 md:w-100 md:-mt-10  ">
+      <h1 className="lg:text-3xl md: text-1xl">{content.name}</h1>
+      <h1 className="lg:text-3xl md: text-1xl" >{content.title}</h1>
+      <h1 className="lg:text-3xl md: text-1xl">{content.title2}</h1>
       </div>
       <Startseite lang={params.lang} />
     </section>
-    <section id="angebote">
-    <h2 className="m-10 text-center text-[30px] ">{angebottitle.title}</h2>
+    <section >
+    <h2 id="angebote" className="m-10 text-center text-[30px] ">{angebottitle.title}</h2>
     
     <Angebote lang={params.lang} />
     </section>
