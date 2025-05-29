@@ -34,6 +34,12 @@ type Content = {
   condition2?: string;
   condition3?: string;
   condition4?: string;
+  angeboteInfoTitle?: string;
+  angeboteInfoContent1?: string;
+  angeboteInfoContent2?: string;
+  angeboteInfoContent3?: string;
+  angeboteInfoContent4?: string;
+  angeboteInfoContent5?: string;
   
 };
 
