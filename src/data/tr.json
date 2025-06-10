@@ -52,7 +52,7 @@
   "contact": {
     "title": "Benimle iletişime geçebilirsiniz",
     "content": "Seanslar yalnızca önceden belirlenen randevu ile mümkündür.",
-    "button": "İletişim"
+    "contactButton": "İletişim"
   },
   "aboutpage": {
     "title": "Hakkımda",
@@ -81,8 +81,10 @@
    "kontaktpage": {
   "title": "İletişim",
   "name": "Soyadı",
+  "namePlaceholder": "Adınızı girin",
   "vorname": "Adı",
-  "telefonummer": "Telefon Numarası",
+  "vornamePlaceholder": "Adınızı girin",
+  "telefonnummer": "Telefon Numarası",
   "email": "E-posta",
   "nachricht": "Mesaj",
   "button": "Gönder"

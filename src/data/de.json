@@ -55,7 +55,7 @@
   "contact":{
     "title": "Kontakt mich",
     "content": "Bitte beachten Sie, dass Termine nur nach vorheriger Vereinbarung stattfinden.",
-    "button": "zum Kontakt"
+    "contactButton": "zum Kontakt"
   },
   "aboutpage":{
   "title": "Über mich",
@@ -82,10 +82,12 @@
     "Qualifikationen7":"Muttersprachliche Elternkursleitung, Refugio München Eltern-Aktiv"
     },
     "kontaktpage":{
-      "title":" InKontakt treten",
+      "title":" In Kontakt treten",
       "name":"Name",
+      "namePalaceholder": "deinen Namen eingeben",
       "vorname":"Vorname",
-      "telefonummer":"Telefonnummer",
+      "vornamePlaceholder":"deinen Vornamen eingeben",
+      "telefonnummer":"Telefonnummer",
       "email":"Email",
       "nachricht":"Nachricht",
       "button":"Senden"

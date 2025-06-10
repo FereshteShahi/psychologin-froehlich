@@ -2,13 +2,14 @@ import Startseite from "@/src/components/Startseite";
 import { getContent } from "@/src/lib/getContent";
 import Angebote from "@/src/components/Angebote";
 import Costs from "@/src/components/Costs";
-
+import KontaktMe from "@/src/components/KontaktMe";
 type Params = { lang: "de" | "tr" };
 
 export default async function Home( { params }: { params: Params }) {
   const content = getContent(params.lang, "home");
   const angebottitle = getContent(params.lang, "angebote");
   const costs = getContent(params.lang, "costs");
+  const contact = getContent(params.lang, "contact");
 
   return (
     <main className="">
@@ -29,6 +30,14 @@ export default async function Home( { params }: { params: Params }) {
     <h2 className="m-10 text-center text-[30px] ">{costs.title}</h2>
     <Costs lang={params.lang} />
     </section>
+    <section id="kontakt">
+    <h2 className="m-5 text-center text-[30px] ">{contact.title}</h2>
+    <KontaktMe lang={params.lang}/>
+    </section>
+    <div className="h-10">
+
+    </div>
+
   </main>
 
   );

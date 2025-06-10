@@ -34,11 +34,17 @@ type Content = {
   condition2?: string;
   condition3?: string;
   condition4?: string;
+  contactButton?: string;
+  namePlaceholder?: string;
+  vorname?: string;
+  vornamePlaceholder?: string;
+  telefonnummer?: string;
+  telefonnummerPlaceholder?: string;
   
 };
 
 // Define the available pages that can be in the JSON
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs' | 'kontaktpage'; // Ensure this matches your JSON keys
 
 // Explicitly type the imported data as an object with the page keys
 const deData = de as Record<string, any>;
