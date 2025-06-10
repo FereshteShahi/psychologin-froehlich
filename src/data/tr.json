@@ -9,9 +9,12 @@
   "quotes": {
     "quoteHome": "Farkındalık, tekrar iletişim kurmamıza yardımcı olabilir, özellikle de kendimizle.",
     "quoteHomeAuthor": "–Thich Nhat Hanh",
-    "quoteTherapie1": "“Bu senin yolun, yalnızca senin. Başkaları bu yolu seninle birlikte yürüyebilir; fakat kimse senin için yürüyemez. –Mevlana ",
-    "quoteTherapie2": "İnsani varoluşun anlamına yönelik soruya akla yatkın ve tatmin edici tek yanıt sevgidir. –Erich Fromm ",
-    "quoteTherapie3": "Hayat, en muhteşem halini göstermek için bir krizin oluşmasını bekler her zaman.–Paulo Coelho "
+    "quoteTherapie1": "“Bu senin yolun, yalnızca senin. Başkaları bu yolu seninle birlikte yürüyebilir; fakat kimse senin için yürüyemez.  ",
+    "quoteTherapie1Author": "–Mevlana",
+    "quoteTherapie2": "İnsani varoluşun anlamına yönelik soruya akla yatkın ve tatmin edici tek yanıt sevgidir.  ",
+    "quoteTherapie2Author":"–Erich Fromm",
+    "quoteTherapie3": "Hayat, en muhteşem halini göstermek için bir krizin oluşmasını bekler her zaman.",
+    "quoteTherapie3Author": "–Paulo Coelho"
   },
   "home": {
     "name": "Duygu Fröhlich",
