@@ -24,7 +24,7 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
             className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[500px] lg:h-[580px]"
           />
           <div className="flex flex-col">
-            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-2/2 lg:mt-10">
+            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[22px] lg:w-2/2">
               {content.content1}
             </p>
             <div className="self-start md:self-center">
@@ -53,7 +53,7 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
             className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[500px] lg:h-[580px]"
           />
           <div className="flex flex-col">
-            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-2/2 lg:mt-10">
+            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[22px] lg:w-2/2">
               {content.content2}
             </p>
             <div className="self-start md:self-center">
@@ -82,7 +82,7 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
             className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[500px] lg:h-[580px]"
           />
           <div className="flex flex-col">
-            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-2/2 lg:mt-10">
+            <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[22px] lg:w-2/2 ">
               {content.content3}
             </p>
             <div className="self-start md:self-center">
@@ -101,13 +101,13 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
       </h3>
 
       <ul className="list-disc pl-5 mt-10 w-120 lg:w-[1000px] p-10  mx-auto">
-        <li className="text-left ml-5 font-handlee lg:text-2xl">{content.angeboteInfoContent1}</li>
+        <li className="text-left ml-5 font-handlee lg:text-[24px]">{content.angeboteInfoContent1}</li>
         <br />
-        <li className="text-left ml-5 font-handlee lg:text-2xl">{content.angeboteInfoContent2}</li>
+        <li className="text-left ml-5 font-handlee lg:text-[24px]">{content.angeboteInfoContent2}</li>
         <br />
-        <li className="text-left ml-5 font-handlee lg:text-2xl">{content.angeboteInfoContent3}</li>
+        <li className="text-left ml-5 font-handlee lg:text-[24px]">{content.angeboteInfoContent3}</li>
         <br />
-        <li className="text-left ml-5 font-handlee lg:text-2xl">{content.angeboteInfoContent4}</li>
+        <li className="text-left ml-5 font-handlee lg:text-[24px]">{content.angeboteInfoContent4}</li>
       </ul>
     </section>
   );

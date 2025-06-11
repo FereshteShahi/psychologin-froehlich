@@ -40,11 +40,33 @@ type Content = {
   angeboteInfoContent3?: string;
   angeboteInfoContent4?: string;
   angeboteInfoContent5?: string;
-  
+  quoteAbout?:string;
+  quoteAboutAuthor?:string;
+  titleAbout?:string;
+  studium?:string;
+  contentAbout1?:string;
+  contentAbout2?:string;
+  Berufstaetigkeit?:string;
+  Berufstaetigkeitjahr1?:string;
+  Berufstaetigkeittext1?:string;
+  Berufstaetigkeitjahr2?:string;
+  Berufstaetigkeittext2?:string;
+  Berufstaetigkeitjahr3?:string;
+  Berufstaetigkeittext3?:string;
+  Qualifikationen?:string;
+  Qualifikationen1?:string;
+  Qualifikationen2?:string;
+  Qualifikationen3?:string;
+  Qualifikationen4?:string;
+  Qualifikationen5?:string;
+  Qualifikationen6?:string;
+  Qualifikationen7?:string;
+  description1?:string;
+
 };
 
 // Define the available pages that can be in the JSON
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'; // Ensure this matches your JSON keys
 
 // Explicitly type the imported data as an object with the page keys
 const deData = de as Record<string, any>;

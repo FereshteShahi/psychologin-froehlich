@@ -62,9 +62,8 @@ h1, h2, h3 {
 /* ----------------------------- */
 p {
   line-height: 1.625;
-  font-size: 1rem;
   color: var(--color-paragraph);
-  font-family: 'Handlee', cursive;
+  font-family: 'Handlee', cursive; 
 }
 
 /* ----------------------------- */
