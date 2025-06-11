@@ -123,7 +123,7 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
         {/* Right Links */}
         <div className="flex items-center gap-4 lg:gap-6">
           <Link href="#costs" className='text-xl lg:text-2xl'>{navData.nav.cost}</Link>
-          <Link href="#contact" className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
+          <Link href={`/${currentLang}/contact`} className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
           <LanguageSwitcher />
         </div>
       </div>

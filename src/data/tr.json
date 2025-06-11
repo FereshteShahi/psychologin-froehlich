@@ -57,7 +57,7 @@
   "contact": {
     "title": "Benimle iletişime geçebilirsiniz",
     "content": "Seanslar yalnızca önceden belirlenen randevu ile mümkündür.",
-    "button": "İletişim"
+    "contactButton": "İletişim"
   },
   "aboutpage": {
     "titleAbout": "Hakkımda",
@@ -87,10 +87,15 @@
    "kontaktpage": {
   "title": "İletişim",
   "name": "Soyadı",
+  "namePlaceholder": "Adınızı girin",
   "vorname": "Adı",
-  "telefonummer": "Telefon Numarası",
+  "vornamePlaceholder": "Adınızı girin",
+  "telefonnummer": "Telefon Numarası",
+  "telefonnummerPlaceholder": "Telefon numaranızı girin",
   "email": "E-posta",
+  "emailPlaceholder": "E-posta adresinizi girin",
   "nachricht": "Mesaj",
+  "nachrichtPlaceholder": "Mesajınızı girin",
   "button": "Gönder"
 },
 "footer": {
