@@ -79,7 +79,7 @@ type Content = {
 
 // Define the available pages that can be in the JSON
 
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'| 'kontaktpage'; // Ensure this matches your JSON keys
 
 
 // Explicitly type the imported data as an object with the page keys
