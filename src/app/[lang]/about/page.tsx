@@ -118,7 +118,7 @@ export default function About({ params }: { params: Params }) {
           width={450}
           height={390}
           priority
-          className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[500px] lg:h-[580px] "
+          className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[450px] lg:h-[530px] "
         />
         <Image
           src="/images/dgsf.jpg"
@@ -126,7 +126,7 @@ export default function About({ params }: { params: Params }) {
           width={450}
           height={390}
           priority
-          className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[500px] lg:h-[580px]"
+          className="rounded-[52px] w-[295px] h-[360px] md:w-[360px] md:h-[480px] lg:w-[450px] lg:h-[530px]"
         />
       </div>
     </section>
