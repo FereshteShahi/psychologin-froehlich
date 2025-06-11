@@ -40,7 +40,17 @@ type Content = {
   vornamePlaceholder?: string;
   telefonnummer?: string;
   telefonnummerPlaceholder?: string;
-  
+  email?: string;
+  emailPlaceholder?: string;
+  nachricht?: string;
+  nachrichtPlaceholder?: string;
+  button?: string;
+  angeboteInfoTitle?: string;
+  angeboteInfoContent1?: string;
+  angeboteInfoContent2?: string;
+  angeboteInfoContent3?: string;
+  angeboteInfoContent4?: string;
+
 };
 
 // Define the available pages that can be in the JSON

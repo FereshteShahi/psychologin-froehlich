@@ -88,8 +88,11 @@
       "vorname":"Vorname",
       "vornamePlaceholder":"deinen Vornamen eingeben",
       "telefonnummer":"Telefonnummer",
+      "telefonnummerPlaceholder":"deine Telefonnummer eingeben",
       "email":"Email",
+      "emailPlaceholder":"deine E-Mail eingeben",
       "nachricht":"Nachricht",
+      "nachrichtPlaceholder":"deine Nachricht eingeben",
       "button":"Senden"
     },
     "footer":{
