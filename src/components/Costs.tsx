@@ -1,3 +1,5 @@
+"use client";
+
 import { getContent } from "@/src/lib/getContent";
 import { CostsBox } from "./CostsBox";
 import Button from "./Button";
@@ -5,6 +7,8 @@ import Image from "next/image";
 
 export default function Costs({ lang }: { lang: "de" | "tr" }) {
   const content = getContent(lang, "costs");
+
+  
 
   return (
     <div className="bg-[var(--color-foreground)] text-center">
@@ -17,7 +21,12 @@ export default function Costs({ lang }: { lang: "de" | "tr" }) {
         </div>
       </div>
       <div className="lg:flex lg:justify-center lg:mt-10 lg:mr-12">
-        <Button text={content.costButton ?? ""} />
+        <Button text={content.costButton ?? ""} onClick={()=>{
+          const el = document.getElementById("kontakt");
+          if(el){
+            el.scrollIntoView({ behavior: "smooth" });
+          }
+        }}/>
       </div>
       <div className="flex flex-col items-center justify-around mt-10 lg:flex lg:flex-row ">
         <div className="lg:-mt-40">

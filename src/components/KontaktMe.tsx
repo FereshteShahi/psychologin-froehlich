@@ -57,8 +57,8 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
         </div>
       </div>
 
-      <Link href="/" className="">
-        <Button text={contactContent.contactButton ?? ""} />
+      <Link href={`/${lang}/contact`} className="">
+        <Button  text={contactContent.contactButton ?? ""}  />
       </Link>
       <div className="h-15">
 

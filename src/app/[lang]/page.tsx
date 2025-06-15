@@ -30,8 +30,8 @@ export default async function Home( { params }: { params: Params }) {
     <h2 className="m-10 text-center text-[30px] ">{costs.title}</h2>
     <Costs lang={params.lang} />
     </section>
-    <section id="kontakt">
-    <h2 className="m-5 text-center text-[30px] ">{contact.title}</h2>
+    <section>
+    <h2  id="kontakt" className="m-5 text-center text-[30px] ">{contact.title}</h2>
     <KontaktMe lang={params.lang}/>
     </section>
     <div className="h-10">
