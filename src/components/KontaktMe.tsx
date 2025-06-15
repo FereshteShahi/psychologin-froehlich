@@ -9,19 +9,19 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
 
   return (
     <div className="bg-[var(--color-foreground)] text-center">
-      <h4 className="w-100 text-left m-9">{contactContent.content}</h4>
-      <div className="md:flex md:flex-row-reverse md:gap-5 md:items-center ">
+      <h4 className="w-100 text-left m-9 md:text-md md:pt-8 md:w-150 lg:text-lg lg: pt-8 lg:w-200">{contactContent.content}</h4>
+      <div className="md:flex md:flex-row-reverse md:gap-5 md:items-center md:pb-10 lg-pb-20">
         <Image
           src="/images/praxis.jpeg"
           alt="Praxis"
           width={250}
           height={250}
-          className="m-auto rounded-[52px] shadow-lg md:w-[450px] md:h-[400px] md:m-5"
+          className="m-auto rounded-[52px] shadow-lg md:w-[450px] md:h-[400px] md:mx-10"
           priority
           loading="eager"
         />
-        <div className="mt-5 mb-5 flex justify-center items-center ">
-          <div className="flex flex-col items-start space-y-6">
+        <div className="mt-5 mb-5 flex justify-center items-center md:justify-start md:items-start md:flex-col md:gap-5">
+          <div className="flex flex-col items-start space-y-6 md:justify-start md:items-start lg:mr-[100px] lg:mb[100px]">
             {/* Address with Google Maps link */}
             <a
               href="https://www.google.com/maps/place/Asamstraße+8,+81541+München"
@@ -29,10 +29,10 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
               rel="noopener noreferrer"
               className="flex items-start gap-4  hover:underline"
             >
-              <MapPin className="w-8 h-8 mt-1" />
+              <MapPin className="w-8 h-8 mt-1 md:w-10 md:h-10 " />
               <div className="flex flex-col">
-                <p className="">Asamstraße 8</p>
-                <p className="text-lg">81541 München</p>
+                <p className="text-lg lg:text-2xl">Asamstraße 8</p>
+                <p className="text-lg lg:text-2xl">81541 München</p>
               </div>
             </a>
 
@@ -41,17 +41,16 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
               href="tel:+4915781639662"
               className="flex items-center gap-4  hover:underline"
             >
-              <Phone className="w-8 h-8" />
-              <p className="text-lg font-medium">+49 1578 1639662</p>
+              <Phone className="w-8 h-8 md:w-10 md:h-10 " />
+              <p className="text-lg font-medium lg:text-2xl">+49 1578 1639662</p>
             </a>
 
-            {/* Email with mailto: link */}
             <a
               href="mailto:duygu.froehlich@web.de"
               className="flex items-center gap-4 hover:underline"
             >
-              <Mail className="w-8 h-8" />
-              <p className="text-lg font-medium">duygu.froehlich@web.de</p>
+              <Mail className="w-8 h-8 md:w-10 md:h-10 " />
+              <p className="text-lg font-medium lg:text-2xl">duygu.froehlich@web.de</p>
             </a>
           </div>
         </div>
