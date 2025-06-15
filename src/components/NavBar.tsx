@@ -6,11 +6,14 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import clsx from 'clsx';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const navData = require(`../data/${currentLang}.json`);
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +26,20 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
+
+  const handleSectionNavigation = (sectionId: string) => {
+    if (pathname === `/${currentLang}` || pathname === `/${currentLang}/`) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const yOffset = -100; // Höhe der festen Navbar
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+      setMenuOpen(false);
+    } else {
+      router.push(`/${currentLang}/#${sectionId}`);
+    }
+  };
 
   const navClass = clsx(
     'fixed top-0 left-0 w-full h-20 shadow-md flex items-center justify-between px-4 lg:px-10 transition-colors duration-300 z-[100]',
@@ -82,10 +99,10 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
               </svg>
             </button>
 
-            <Link href="#home" onClick={() => setMenuOpen(false)}>{navData.nav.home}</Link>
+            <button onClick={() => handleSectionNavigation('home')}>{navData.nav.home}</button>
             <Link href={`/${currentLang}/about`} onClick={() => setMenuOpen(false)}>{navData.nav.about}</Link>
-            <Link href="#angebote" onClick={() => setMenuOpen(false)}>{navData.nav.angebote}</Link>
-            <Link href="#costs" onClick={() => setMenuOpen(false)}>{navData.nav.cost}</Link>
+            <button onClick={() => handleSectionNavigation('angebote')}>{navData.nav.angebote}</button>
+            <button onClick={() => handleSectionNavigation('costs')}>{navData.nav.cost}</button>
             <Link href={`/${currentLang}/contact`} onClick={() => setMenuOpen(false)}>{navData.nav.contact}</Link>
           </motion.div>
         )}
@@ -101,9 +118,9 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
       )}>
         {/* Left Links */}
         <div className="flex gap-4 lg:gap-4">
-          <Link href="#home" className='text-xl lg:text-2xl'>{navData.nav.home}</Link>
+          <button onClick={() => handleSectionNavigation('home')} className='text-xl lg:text-2xl'>{navData.nav.home}</button>
           <Link href={`/${currentLang}/about`} className='text-xl lg:text-2xl'>{navData.nav.about}</Link>
-          <Link href="#angebote" className='text-xl lg:text-2xl'>{navData.nav.angebote}</Link>
+          <button onClick={() => handleSectionNavigation('angebote')} className='text-xl lg:text-2xl'>{navData.nav.angebote}</button>
         </div>
 
         {/* Center Logo */}
@@ -122,7 +139,7 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
 
         {/* Right Links */}
         <div className="flex items-center gap-4 lg:gap-6">
-          <Link href="#costs" className='text-xl lg:text-2xl'>{navData.nav.cost}</Link>
+          <button onClick={() => handleSectionNavigation('costs')} className='text-xl lg:text-2xl'>{navData.nav.cost}</button>
           <Link href={`/${currentLang}/contact`} className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
           <LanguageSwitcher />
         </div>

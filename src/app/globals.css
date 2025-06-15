@@ -101,12 +101,12 @@ p {
 /* ----------------------------- */
 /*         Links                */
 /* ----------------------------- */
-a {
+a , button{
   @apply p-2 rounded-full;
   color: var(--color-heading);
 }
 
-a:hover {
+a:hover , button:hover{
   @apply underline;
 }
 
