@@ -73,16 +73,20 @@ type Content = {
   Qualifikationen6?:string;
   Qualifikationen7?:string;
   description1?:string;
+  jobtitle?: string;
+  address?: string;
+  telefon?: string;
+  responsible?: string;
+  responsibleName?: string;
+
 
 
 };
 
-// Define the available pages that can be in the JSON
 
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'| 'kontaktpage'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'| 'kontaktpage'| 'impressum'; 
 
 
-// Explicitly type the imported data as an object with the page keys
 const deData = de as Record<string, any>;
 const trData = tr as Record<string, any>;
 
