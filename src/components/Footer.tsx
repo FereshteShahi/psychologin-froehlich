@@ -18,11 +18,11 @@ export default function Footer({ currentLang }: { currentLang: 'de' | 'tr' }) {
 />
 
         <div className="flex justify-center items-center ">
-      <Link href={`/${currentLang}`} className="font-bold   ">
+      <Link href={`/${currentLang}/impressum`} className="font-bold   ">
         {footerData.footer.impressum}
       </Link>
 
-      <Link href={`/${currentLang}/about`} className="font-bold ml-[-15] ">
+      <Link href={`/${currentLang}/datenschutz`} className="font-bold ml-[-15] ">
         {footerData.footer.datenschutz}
       </Link>
       </div>

@@ -101,6 +101,11 @@
     "footer":{
       "impressum":"Impressum/",
       "datenschutz":"Datenschutzerklärung"
+    },
+    "datenschutz":{
+      "titleDatenschutz":"Datenschutzerklärung"
+
+
     }
     
   
