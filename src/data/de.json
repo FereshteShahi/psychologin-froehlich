@@ -102,14 +102,76 @@
       "impressum":"Impressum/",
       "datenschutz":"Datenschutzerklärung"
     },
-<<<<<<< HEAD
     "datenschutz":{
-      "titleDatenschutz":"Datenschutzerklärung"
+
+      "titleDatenschutz":"Datenschutzerklärung",
+      "datenschutztext":"Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Personenbezogene Daten werden auf dieser Website nur im technisch notwendigen Umfang verarbeitet. In keinem Fall werden die erhobenen Daten verkauft oder an Dritte weitergegeben.",
+      
+      
+      "Verantwortlich":"1. Verantwortliche Stelle",
+      "nameD":"Duygu Fröhlich",
+      "addresse":" Asamstraße 8",
+      "ort":" 81541 München",
+      "telefone":"Telefon: +49 1578 1639662",
+      "emailD":"E-Mail: duygu.froehlich@web.de",
+
+
+      "hosting":"2. Hosting",
+      "hoster":"Diese Website wird gehostet bei:",
+      "hoster1":"Munich Software Studios",
+      "hoster2":"TL UG (haftungsbeschränkt)",
+      "hoster3":"Simerbauernweg 17",
+      "hoster4":"82041 Oberhaching",
+      "hoster5":"Im Rahmen des Hostings werden personenbezogene Daten (z. B. IP-Adressen) verarbeitet, um den technischen Betrieb der Website sicherzustellen.Ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO wurde mit dem Hosting-Anbieter abgeschlossen.",
+     
+      "verschlüsselung":"3. SSL- bzw. TLS-Verschlüsselung",
+      "verachlüsselungtext":"Diese Website nutzt eine SSL- bzw. TLS-Verschlüsselung.Sie erkennen eine verschlüsselte Verbindung an der Adresszeile des Browsers („https://“) und am Schloss-Symbol.Dadurch sind übermittelte Daten gegen unbefugten Zugriff geschützt.",
+     
+      "erhebung":"4. Erhebung und Speicherung personenbezogener Daten ",
+      "erhenubg0":"Beim Aufruf dieser Website erhebt der Hosting-Provider automatisch Informationen, sogenannte Server-Logfiles:",
+      "erhebung1":"IP-Adresse des zugreifenden Geräts",
+      "erhebung2":"Datum und Uhrzeit des Zugrufs",
+      "erhebung3":"aufgerufene URL",
+      "erhebung4":"verwendeter Browser und Betriebssystem",
+      "erhebungText":"Diese Daten dienen der technischen Sicherheit und Fehleranalyse. Sie werden regelmäßig automatisch gelöscht und nicht mit anderen Datenquellen zusammengeführt.",
+
+      "kontakt":"5. Kontaktformular",
+      "kontakttext":"Wenn Sie uns über das Kontaktformular kontaktieren, werden folgende Daten verarbeitet:",
+      "kontakt1":"Ihr Name",
+      "kontakt2":"Ihre E-Mail-Adresse",
+      "kontakt3":"Ihre Nachricht",
+      "rechtgrundlage":"Rechtsgrundlage:",
+      "rechtgrundlagetext":"Art. 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Durchführung vorvertraglicher Maßnahmen)",
+      "speicherdauer":"Speicherdauer:",
+      "speicherdauertext":" Die Daten werden nach abschließender Bearbeitung Ihrer Anfrage gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.Eine Weitergabe Ihrer Daten erfolgt nicht.",
+     
+      
+
+      "rechte":"6. Ihre Rechte",
+      "rechtetext":"Sie haben gemäß DSGVO folgende Rechte:",
+      "rechte1":"Auskunft (Art. 15 DSGVO)",
+      "rechte2":"Berichtigung (Art. 16 DSGVO)",
+      "rechte3":"Löschung (Art. 17 DSGVO)",
+      "rechte4":"Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+      "rechte5":"Datenübertragbarkeit (Art. 20 DSGVO)",
+      "rechre6":"Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)",
+      
+
+      "wiederspruchrecht":"7.Widerspruchsrecht gemäß Art. 21 DSGVO",
+      "wiederspruchrechttext":"Sie haben das Recht, jederzeit gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen, sofern diese auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO erfolgt (berechtigtes Interesse).",
+      "muster":"Muster-Widerspruch:",
+      "an":"An: Duygu Fröhlich, Asamstraße 8, 81541 München",
+      "betreff":"Betreff: Widerspruch gegen die Verarbeitung meiner personenbezogenen Daten",
+      "betreftext":"Hiermit widerspreche ich der Verarbeitung meiner personenbezogenen Daten gemäß Art. 21 DSGVO.[Ort, Datum][Unterschrift – bei postalischem Versand]",
+      
+      
+      "änderung":"8. Änderungen dieser Datenschutzerklärung",
+      "änderungtext":"Wir behalten uns vor, diese Datenschutzerklärung bei rechtlichen oder technischen Änderungen zu aktualisieren. Die jeweils aktuelle Version ist stets auf dieser Website verfügbar."
+
 
 
     }
-    
-=======
+    ,
   "impressum": {
     "title": "Impressum",
     "content": "Angaben gemäß § 5 TMG:",
@@ -122,6 +184,5 @@
     "responsibleName": "Duygu Fröhlich"
 
   }
->>>>>>> c120a505449044e9c4311f84a05074ab27f78ee0
   
 }

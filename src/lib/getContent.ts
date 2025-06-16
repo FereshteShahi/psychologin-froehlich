@@ -78,13 +78,59 @@ type Content = {
   telefon?: string;
   responsible?: string;
   responsibleName?: string;
+  
+  titleDatenschutz?:string,
+  datenschutztext?:string;
 
+  Verantwortlich?:string;
+  nameD?:string;
+  addresse?:string;
+  ort?:string;
+  telefone?:string;
+  emailD?:string;
 
+  hosting?:string;
+  hoster?:string;
+  hoster1?:string;
+  hoster2?:string;
+  hoster3?:string;
+  hoster4?:string;
+  hoster5?:string;
+
+  verschlüsselung?:string;
+  verschlüsselungtext?:string;
+
+  erhebung?:string;
+  erhebung0?:string;
+  erhebung1?:string;
+  erhebung2?:string;
+  erhebung3?:string;
+  erhebung4?:string;
+  erhebungText?:string;
+
+  rechte?:string;
+  rechtetext?:string;
+  rechte1?:string;
+  rechte2?:string;
+  rechte3?:string;
+  rechte4?:string;
+  rechte5?:string;
+  rechte6?:string;
+
+  wiederspruchrecht?:string;
+  wiederspruchrechttext?:string;
+  muster?:string;
+  an?:string;
+  betreff?:string;
+  betreftext?:string;
+
+  änderung?:string;
+  änderungtext?:string;
 
 };
 
 
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'| 'kontaktpage'| 'impressum'; 
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'|'aboutpage'| 'kontaktpage'| 'impressum'|'datenschutz'; 
 
 
 const deData = de as Record<string, any>;
