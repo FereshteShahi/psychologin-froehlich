@@ -6,25 +6,27 @@ export default function Impressum({ params }: { params: Params }) {
   const impressumContent = getContent(params.lang, "impressum");
 
   return (
-    <main>
-      <section className="max-w-3xl mx-auto px-4 py-12 bg-[var(--color-foreground)] text-[var(--color-heading)]">
-        <h2 className="text-3xl font-bold mb-6 text-center">{impressumContent.title}</h2>
+    <main className=" py-12 text-[var(--color-heading)]">
+      <h1 className="text-4xl font-bold text-center mb-10">
+        {impressumContent.title}
+      </h1>
 
-        <div className="space-y-6 text-base leading-relaxed">
-          <div>
-            <h4 className="font-semibold text-lg mb-1">{impressumContent.content}</h4>
-            <p>{impressumContent.name}</p>
-            <p>{impressumContent.jobtitle}</p>
-            <p>{impressumContent.address}</p>
-            <p>{impressumContent.telefon}</p>
-            <p>{impressumContent.email}</p>
-          </div>
+      <section className="w-full text-center space-y-12 bg-[var(--color-foreground)] p-6 ">
+        {/* Contact Info */}
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">{impressumContent.content}</h2>
+          <p>{impressumContent.name}</p>
+          <p>{impressumContent.jobtitle}</p>
+          <p>{impressumContent.address}</p>
+          <p>{impressumContent.telefon}</p>
+          <p>{impressumContent.email}</p>
+        </div>
 
-          <div>
-            <h4 className="font-semibold text-lg mb-1">{impressumContent.responsible}</h4>
-            <p>{impressumContent.responsibleName}</p>
-            <p>{impressumContent.address}</p>
-          </div>
+        {/* Responsible Person */}
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">{impressumContent.responsible}</h2>
+          <p>{impressumContent.responsibleName}</p>
+          <p>{impressumContent.address}</p>
         </div>
       </section>
     </main>
