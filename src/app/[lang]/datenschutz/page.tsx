@@ -9,7 +9,7 @@ export default function About({ params }: { params: Params }) {
 return(
     <section className="mb-6">
 
-<h1 className="text-[25px] text-center m-3 mt-[-15px] md:text-[30px] lg:text[40px]">Datenschutzerklärung</h1>
+<h1 className="text-4xl font-bold text-center  m-10 ">Datenschutzerklärung</h1>
 <div className="bg-[var(--color-foreground)] p-[30px] ">
 
 <p className="text-[20px] lg:text-[25px]">{datenschutz.datenschutztext}</p>
