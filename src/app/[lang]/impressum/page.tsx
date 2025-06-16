@@ -6,7 +6,7 @@ export default function Impressum({ params }: { params: Params }) {
   const impressumContent = getContent(params.lang, "impressum");
 
   return (
-    <main className=" py-12 text-[var(--color-heading)]">
+    <main className=" py-8 text-[var(--color-heading)]">
       <h1 className="text-4xl font-bold text-center mb-10">
         {impressumContent.title}
       </h1>
