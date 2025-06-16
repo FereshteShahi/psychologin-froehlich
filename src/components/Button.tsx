@@ -21,6 +21,8 @@ export default function Button({
         w-[170px]
         h-[60px]
         shadow-lg
+        lg:w-[220px] lg:h-[70px]
+        lg:shadow-xl
       `}
     >
       <button
@@ -39,6 +41,9 @@ export default function Button({
           bg-transparent
           hover:drop-shadow-lg 
           transition 
+          lg:px-6 lg:py-3 lg:w-[200px] lg:h-[60px]
+          lg:text-lg
+          lg:font-bold
           ${className}
         `}
       >

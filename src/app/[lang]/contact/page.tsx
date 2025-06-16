@@ -50,7 +50,7 @@ export default function Contact({ params }: { params: Params }) {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 text-green-900 placeholder-gray-400 focus:outline-none"
+              className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 lg:py-4 lg:px-5 text-green-900 placeholder-gray-400 focus:outline-none lg:text-base"
               placeholder={contactContent.namePlaceholder ?? "deinen Namen eingeben"}
               required
             />
@@ -64,7 +64,7 @@ export default function Contact({ params }: { params: Params }) {
               type="text"
               id="vorname"
               name="vorname"
-              className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 text-green-900 placeholder-gray-400 focus:outline-none"
+              className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 lg:py-4 lg:px-5 text-green-900 placeholder-gray-400 focus:outline-none lg:text-base"
               placeholder={contactContent.vornamePlaceholder}
               required
             />
@@ -79,7 +79,7 @@ export default function Contact({ params }: { params: Params }) {
             type="text"
             id="telefonnummer"
             name="telefonnummer"
-            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 text-green-900 placeholder-gray-400 focus:outline-none"
+            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 lg:py-4 lg:px-5 text-green-900 placeholder-gray-400 focus:outline-none lg:text-base"
             placeholder={contactContent.telefonnummerPlaceholder}
           />
         </div>
@@ -92,7 +92,7 @@ export default function Contact({ params }: { params: Params }) {
             type="email"
             id="email"
             name="email"
-            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 text-green-900 placeholder-gray-400 focus:outline-none"
+            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 lg:py-4 lg:px-5 text-green-900 placeholder-gray-400 focus:outline-none lg:text-base"
             placeholder={contactContent.emailPlaceholder}
             required
           />
@@ -106,7 +106,7 @@ export default function Contact({ params }: { params: Params }) {
             id="message"
             name="message"
             rows={4}
-            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 text-green-900 placeholder-gray-400 focus:outline-none"
+            className="w-full bg-[var(--color-foreground)] rounded-xl py-3 px-4 lg:py-4 lg:px-5 focus:outline-none lg:text-base"
             placeholder={contactContent.nachrichtPlaceholder}
             required
           ></textarea>

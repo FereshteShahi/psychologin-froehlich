@@ -12,11 +12,11 @@
     "quoteTherapie1": "“Bu senin yolun, yalnızca senin. Başkaları bu yolu seninle birlikte yürüyebilir; fakat kimse senin için yürüyemez.  ",
     "quoteTherapie1Author": "–Mevlana",
     "quoteTherapie2": "İnsani varoluşun anlamına yönelik soruya akla yatkın ve tatmin edici tek yanıt sevgidir.  ",
-    "quoteTherapie2Author":"–Erich Fromm",
+    "quoteTherapie2Author": "–Erich Fromm",
     "quoteTherapie3": "Hayat, en muhteşem halini göstermek için bir krizin oluşmasını bekler her zaman.",
     "quoteTherapie3Author": "–Paulo Coelho",
-    "quoteAbout":"Ich bin nicht das, was mir passiert ist, ich bin das, was ich entscheide zu werden.",
-    "quoteAboutAuthor":"Carl Gustav Jung"
+    "quoteAbout": "Ich bin nicht das, was mir passiert ist, ich bin das, was ich entscheide zu werden.",
+    "quoteAboutAuthor": "Carl Gustav Jung"
   },
   "home": {
     "name": "Duygu Fröhlich",
@@ -62,8 +62,8 @@
   "aboutpage": {
     "titleAbout": "Hakkımda",
     "name": "Duygu Fröhlich",
-    "description": " Uzman Psikolog ", 
-    "description1":" Sistemik Terapist/Aile Terapisti (DGSF",
+    "description": " Uzman Psikolog ",
+    "description1": " Sistemik Terapist/Aile Terapisti (DGSF",
     "content": "2014 yılından beri psikolog olarak görevimi sürdürüyor; bireylere, çiftlere, ailelere ve ebeveynlere danışmanlık ve terapi hizmeti sunuyorum.Seanslar sürecinde danışanlara acılarının kendilerine özgün sebeplerine inerek kendilerine ve yakınlarına karşı farkında veşefkatli bir yaklaşım geliştirmeleri konusunda destek oluyorum.",
     "studium": "Eğitim:",
     "contentAbout1": "Psychology of Excellence in Business and Education (Yüksek Lisans), Ludwig-Maximilians-Universität, Münih",
@@ -76,33 +76,41 @@
     "Berufstaetigkeitjahr3": "2014-2024",
     "Berufstaetigkeittext3": "Uzman Psikolog,Psikolojik Danışma Merkezi, AWO München",
     "Qualifikationen": "Uzmanlıklar:",
-    "Qualifikationen1":"Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
-    "Qualifikationen2":"“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
-    "Qualifikationen3":"Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
-    "Qualifikationen4":"“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
-    "Qualifikationen5":"“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
-    "Qualifikationen6":"“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
-    "Qualifikationen7":"“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
-    
-    },
-   "kontaktpage": {
-  "title": "İletişim",
-  "name": "Soyadı",
-  "namePlaceholder": "Adınızı girin",
-  "vorname": "Adı",
-  "vornamePlaceholder": "Adınızı girin",
-  "telefonnummer": "Telefon Numarası",
-  "telefonnummerPlaceholder": "Telefon numaranızı girin",
-  "email": "E-posta",
-  "emailPlaceholder": "E-posta adresinizi girin",
-  "nachricht": "Mesaj",
-  "nachrichtPlaceholder": "Mesajınızı girin",
-  "button": "Gönder"
-},
-"footer": {
-  "impressum": "Künye/",
-  "datenschutz": "Gizlilik Politikası"
-}
-
-  
+    "Qualifikationen1": "Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
+    "Qualifikationen2": "“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
+    "Qualifikationen3": "Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
+    "Qualifikationen4": "“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
+    "Qualifikationen5": "“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
+    "Qualifikationen6": "“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
+    "Qualifikationen7": "“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
+  },
+  "kontaktpage": {
+    "title": "İletişim",
+    "name": "Soyadı",
+    "namePlaceholder": "Adınızı girin",
+    "vorname": "Adı",
+    "vornamePlaceholder": "Adınızı girin",
+    "telefonnummer": "Telefon Numarası",
+    "telefonnummerPlaceholder": "Telefon numaranızı girin",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "nachricht": "Mesaj",
+    "nachrichtPlaceholder": "Mesajınızı girin",
+    "button": "Gönder"
+  },
+  "footer": {
+    "impressum": "Künye/",
+    "datenschutz": "Gizlilik Politikası"
+  },
+  "impressum": {
+    "title": "Künye",
+    "content": "Telemedya Kanunu (TMG) § 5 uyarınca bilgiler:",
+    "name": "Duygu Fröhlich",
+    "jobtitle": "Psikolog M.A.",
+    "address": "Asamstraße 8 \n 81541 Münih – Almanya",
+    "phone": "Telefon: +49 1578 1639662",
+    "email": "E-posta: duygu.froehlich@web.de",
+    "responsible": "İçerikten sorumlu kişi (RStV § 55, 2. fıkra uyarınca):",
+    "responsibleName": "Duygu Fröhlich"
+  }
 }

@@ -102,11 +102,26 @@
       "impressum":"Impressum/",
       "datenschutz":"Datenschutzerklärung"
     },
+<<<<<<< HEAD
     "datenschutz":{
       "titleDatenschutz":"Datenschutzerklärung"
 
 
     }
     
+=======
+  "impressum": {
+    "title": "Impressum",
+    "content": "Angaben gemäß § 5 TMG:",
+    "name": "Duygu Fröhlich",
+    "jobtitle": "Psychologin M.A.",
+    "address": "Asamstraße 8 \n 81541 München",
+    "phone": "Telefon: +49 1578 1639662",
+    "email": "E-Mail: duygu.froehlich@web.de",
+    "responsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:",
+    "responsibleName": "Duygu Fröhlich"
+
+  }
+>>>>>>> c120a505449044e9c4311f84a05074ab27f78ee0
   
 }
