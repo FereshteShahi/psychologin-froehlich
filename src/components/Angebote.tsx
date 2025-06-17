@@ -16,7 +16,7 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
 
         <div className="flex flex-col justify-between lg:flex-row items-center lg:items-start text-left gap-[10%] max-w-5xl mx-auto px-4 py-10">
           <Image
-            src="/images/paarth.jpg"
+            src="/images/einzelth.jpeg"
             alt="Paartherapie"
             width={450}
             height={390}
@@ -74,7 +74,7 @@ export default function Angebote({ lang }: { lang: "de" | "tr" }) {
 
         <div className="flex flex-col justify-between lg:flex-row items-center lg:items-start text-left gap-[10%] max-w-5xl mx-auto px-4 py-10">
           <Image
-            src="/images/paarth.jpg"
+            src="/images/erziehungsb.jpeg"
             alt="Paartherapie"
             width={450}
             height={390}
