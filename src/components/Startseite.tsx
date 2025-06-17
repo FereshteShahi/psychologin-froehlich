@@ -9,7 +9,7 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
   const q = getContent(lang, "quotes");
   return (
     <div className="bg-[var(--color-foreground)] text-center w-[100%] ">
-      <div className="flex flex-col items-center justify-center lg:flex-row lg:items-start lg: gap-10">
+      <div className="flex flex-col items-center justify-center lg:flex-row lg:items-start lg:gap-10">
       <div className="pt-8 ">
       <Image 
       src="/images/hero.jpeg"
@@ -20,10 +20,10 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
       className="rounded-[52] m-auto lg:w-[400px] lg:h-[600px] "
       />
       </div>
-      <p className="pt-6 w-100 m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-1/2 lg:mt-20 ">{h.description}</p>
+      <p className="pt-6 w-full m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-1/2 lg:mt-20 ">{h.description}</p>
       </div>
-      <div className="flex items-center  mt-8 lg:justify-center lg:-mt-50 lg:gap-50 lg:ml-100">
-        <div className="md: ml-20">
+      <div className="flex items-center  mt-8 lg:justify-center lg:-mt-50 lg:gap-20 ">
+        <div className="md:">
         <Link href={`/${lang}/about`}>
         <Button text={h.buttonText} />
         </Link>

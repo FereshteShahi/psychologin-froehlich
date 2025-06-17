@@ -9,8 +9,8 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
 
   return (
     <div className="bg-[var(--color-foreground)] text-center">
-      <h4 className="w-100 text-left m-9 md:text-md md:pt-8 md:w-150 lg:text-lg lg: pt-8 lg:w-200 xl:text-2xl">{contactContent.content}</h4>
-      <div className="md:flex md:flex-row-reverse md:gap-5 md:items-center md:pb-10 lg-pb-20">
+      <h4 className="w-full text-center mb-4 md:text-md md:pt-8 md:w-150 lg:text-lg lg: pt-8 lg:w-200 xl:text-2xl md:text-center">{contactContent.content}</h4>
+      <div className="md:flex md:flex-row-reverse md:gap-5 md:items-center md:pb-10 lg:pb-20">
         <Image
           src="/images/praxis.jpeg"
           alt="Praxis"
@@ -21,7 +21,7 @@ export default function KontaktMe({ lang }: { lang: "de" | "tr" }) {
           loading="eager"
         />
         <div className="mt-5 mb-5 flex justify-center items-center md:justify-start md:items-start md:flex-col md:gap-5">
-          <div className="flex flex-col items-start space-y-6 md:justify-start md:items-start lg:mr-[100px] lg:mb[100px] xl:mr-[230px]">
+          <div className="flex flex-col items-start space-y-6 md:justify-start md:items-start lg:mr-[100px] lg:mb[100px] xl:mr-[150px]">
             {/* Address with Google Maps link */}
             <a
               href="https://www.google.com/maps/place/Asamstraße+8,+81541+München"
