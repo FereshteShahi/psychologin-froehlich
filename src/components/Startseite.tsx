@@ -20,12 +20,12 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
       className="rounded-[52] m-auto lg:w-[400px] lg:h-[600px] "
       />
       </div>
-      <p className="pt-6 w-full m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-1/2 lg:mt-20 ">{h.description}</p>
+      <p className="pt-6 px-4 w-full m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-1/2 lg:mt-20 ">{h.description}</p>
       </div>
-      <div className="flex items-center  mt-8 lg:justify-center lg:-mt-50 lg:gap-20 ">
+      <div className="flex items-center mt-8 md:justify-center md:gap-10 lg:justify-center lg:ml-120 lg:-mt-50 lg:gap-20 ">
         <div className="md:">
         <Link href={`/${lang}/about`}>
-        <Button text={h.buttonText} />
+        <Button text={h.buttonText} className=""/>
         </Link>
         </div>
         <div className="">
