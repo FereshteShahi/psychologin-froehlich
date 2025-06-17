@@ -12,7 +12,7 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
       <div className="flex flex-col items-center justify-center lg:flex-row lg:items-start lg:gap-10">
       <div className="pt-8 ">
       <Image 
-      src="/images/hero.jpeg"
+      src="/images/hero-desktop.jpeg"
       alt="Hero Image"
       width={295}
       height={360}
@@ -22,7 +22,7 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
       </div>
       <p className="pt-6 px-4 w-full m-auto lg:text-left lg:m-0 lg:!text-[20px] lg:w-1/2 lg:mt-20 ">{h.description}</p>
       </div>
-      <div className="flex items-center mt-8 md:justify-center md:gap-10 lg:justify-center lg:ml-120 lg:-mt-50 lg:gap-20 ">
+      <div className="flex items-center mt-8 justify-center md:justify-center md:gap-10 lg:justify-center lg:ml-120 lg:-mt-50 lg:gap-20 ">
         <div className="md:">
         <Link href={`/${lang}/about`}>
         <Button text={h.buttonText} className=""/>
